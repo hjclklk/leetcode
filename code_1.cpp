@@ -6,8 +6,8 @@ public:
        	for (int j = i+1; j < nums.size()-1; j++)
        		if ((*nums)[i]+(*nums)[j] == target)
        		{
-       			v.push_back(i);
-       			v.push_back(j);
+       			v.push_back(i+1);
+       			v.push_back(j+1);
        			return v;
        		}
     }
